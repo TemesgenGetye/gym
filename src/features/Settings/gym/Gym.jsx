@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./Gym.module.css";
 import { HiMinus, HiPlus } from "react-icons/hi";
 import OfferForm from "./OfferForm/OfferForm";
-import { useOffers } from "../../Offers/useOffers";
+import { useOffers } from "../../offers/useOffers";
 import { useForm } from "react-hook-form";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { deleteSetting, setSetting } from "../../../services/settingsApi";
